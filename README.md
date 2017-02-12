@@ -1,9 +1,15 @@
 # How to create a web terminal on Sourcevoid
 
-- Clone or download this repo
-- Create archive.zip using zip.bash or deploy from you Github account 
+## Download and build zip (or clone/fork the repo to your Github)
+    git clone git@github.com:Scorpiion/app_terminal.git
+    cd app_terminal
+    ./zip.bash
+    
+## Deploy env
 
-# Security Notis!
+Follow normal procedure @ https://cloud.sourcevoid.com. 
+
+# Security Notice!
 
 Currently this should be considered a prof of concept, at this point in time anyone with the right url can access this terminal when you have started it. A simple security meassure could be to simply change the url to include a long random string, as long as no one else know the url they can't access the terminal.
 
