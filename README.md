@@ -4,6 +4,7 @@
     git clone git@github.com:Scorpiion/app_terminal.git
     cd app_terminal
     ./zip.bash
+    cd -
     
 ## Deploy env
 
